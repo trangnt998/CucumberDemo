@@ -43,14 +43,15 @@
         <dependency>
             <groupId>com.vimalselvam</groupId>
             <artifactId>cucumber-extentsreport</artifactId>
-            <version>3.1.1</version>
+            <version>3.0.2</version>
         </dependency>
 
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
-            <version>5.0.9</version>
+            <version>3.1.2</version>
         </dependency>
+
 
     </dependencies>
 
