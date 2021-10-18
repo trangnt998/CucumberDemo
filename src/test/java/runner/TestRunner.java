@@ -28,7 +28,8 @@ public class TestRunner {
 
     @AfterClass
     public static void AfterScenario() throws IOException {
-        Reporter.addScreenCaptureFromPath("target/cucumber-reports/image");
+//        Reporter.addScreenCaptureFromPath("D:/AutoTestPractice/CucumberDemo/target/cucumber-reports/image/error1.png");
+        Reporter.addScreenCaptureFromPath("./image/error1.png");
         Reporter.loadXMLConfig(new File("config/report.xml"));
     }
 }
